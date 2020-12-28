@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyDHhcEaaHzixewWVunlQUD3ONMlQqzwgs0",
+    authDomain: "shinywaffle.firebaseapp.com",
+    databaseURL: "https://shinywaffle-default-rtdb.firebaseio.com",
+    projectId: "shinywaffle",
+    storageBucket: "shinywaffle.appspot.com",
+    messagingSenderId: "923943825637",
+    appId: "1:923943825637:web:9da61fb3078ad1ec5b240c"
+  }
 };
 
 /*
